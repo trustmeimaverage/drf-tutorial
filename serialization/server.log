@@ -1,0 +1,8 @@
+Watching for file changes with StatReloader
+[02/Mar/2026 20:48:48] "GET /snippets/ HTTP/1.1" 200 354
+[02/Mar/2026 20:48:48] "GET /snippets/2/ HTTP/1.1" 200 120
+[02/Mar/2026 20:48:48] "POST /snippets/ HTTP/1.1" 201 124
+[02/Mar/2026 20:48:49] "PUT /snippets/1/ HTTP/1.1" 200 121
+[02/Mar/2026 20:48:49] "DELETE /snippets/1/ HTTP/1.1" 204 0
+Not Found: /snippets/1/
+[02/Mar/2026 20:48:49] "GET /snippets/1/ HTTP/1.1" 404 0
