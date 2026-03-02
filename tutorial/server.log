@@ -1,8 +1,11 @@
 Watching for file changes with StatReloader
-[02/Mar/2026 20:48:48] "GET /snippets/ HTTP/1.1" 200 354
-[02/Mar/2026 20:48:48] "GET /snippets/2/ HTTP/1.1" 200 120
-[02/Mar/2026 20:48:48] "POST /snippets/ HTTP/1.1" 201 124
-[02/Mar/2026 20:48:49] "PUT /snippets/1/ HTTP/1.1" 200 121
-[02/Mar/2026 20:48:49] "DELETE /snippets/1/ HTTP/1.1" 204 0
+[02/Mar/2026 22:15:37] "GET /snippets/ HTTP/1.1" 200 333
+[02/Mar/2026 22:15:37] "GET /snippets.json HTTP/1.1" 200 333
+[02/Mar/2026 22:15:38] "POST /snippets/ HTTP/1.1" 201 108
+[02/Mar/2026 22:15:38] "POST /snippets/ HTTP/1.1" 201 94
+Method Not Allowed: /snippets/
+[02/Mar/2026 22:15:38] "DELETE /snippets/ HTTP/1.1" 405 43
+Bad Request: /snippets/
+[02/Mar/2026 22:15:38] "POST /snippets/ HTTP/1.1" 400 36
 Not Found: /snippets/1/
-[02/Mar/2026 20:48:49] "GET /snippets/1/ HTTP/1.1" 404 0
+[02/Mar/2026 22:15:38] "GET /snippets/1/ HTTP/1.1" 404 0
