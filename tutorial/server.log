@@ -1,12 +1,18 @@
 Watching for file changes with StatReloader
-[03/Mar/2026 08:01:57] "GET / HTTP/1.1" 200 85
-[03/Mar/2026 08:01:57] "POST /snippets/ HTTP/1.1" 201 237
-[03/Mar/2026 08:01:57] "GET /snippets/ HTTP/1.1" 200 528
-[03/Mar/2026 08:01:57] "GET /snippets/3/ HTTP/1.1" 200 237
-[03/Mar/2026 08:01:58] "GET /snippets/3/highlight/ HTTP/1.1" 200 5277
-[03/Mar/2026 08:01:58] "HEAD /snippets/3/highlight/ HTTP/1.1" 200 0
+[03/Mar/2026 08:16:25] "GET / HTTP/1.1" 200 85
+[03/Mar/2026 08:16:26] "POST /snippets/ HTTP/1.1" 201 231
+[03/Mar/2026 08:16:26] "GET /snippets/ HTTP/1.1" 200 760
+[03/Mar/2026 08:16:26] "GET /snippets/4/ HTTP/1.1" 200 231
+[03/Mar/2026 08:16:26] "GET /snippets/4/highlight/ HTTP/1.1" 200 5269
+[03/Mar/2026 08:16:26] "HEAD /snippets/4/highlight/ HTTP/1.1" 200 0
+[03/Mar/2026 08:16:26] "PATCH /snippets/4/ HTTP/1.1" 200 232
+Forbidden: /snippets/
+[03/Mar/2026 08:16:26] "POST /snippets/ HTTP/1.1" 403 58
 /home/zz/Projects/Web-Programming-2/drf/tutorial/env/lib/python3.14/site-packages/rest_framework/pagination.py:207: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'django.contrib.auth.models.User'> QuerySet.
   paginator = self.django_paginator_class(queryset, page_size)
-[03/Mar/2026 08:01:58] "GET /users/ HTTP/1.1" 200 282
-[03/Mar/2026 08:01:58] "GET /users/1/ HTTP/1.1" 200 151
-[03/Mar/2026 08:01:58] "GET /snippets.json HTTP/1.1" 200 548
+[03/Mar/2026 08:16:26] "GET /users/ HTTP/1.1" 200 318
+Method Not Allowed: /users/
+[03/Mar/2026 08:16:26] "POST /users/ HTTP/1.1" 405 41
+[03/Mar/2026 08:16:27] "DELETE /snippets/4/ HTTP/1.1" 204 0
+Not Found: /snippets/4/
+[03/Mar/2026 08:16:27] "GET /snippets/4/ HTTP/1.1" 404 48
